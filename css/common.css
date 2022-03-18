@@ -1,0 +1,150 @@
+/* nav메뉴바 */
+
+html {
+    margin: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+body {
+    margin:0;
+    padding: 0;
+    background-color: #f4f9ff;
+    padding-left: 13rem;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+li,ol,ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+figure,h1,h2,h3,h4,p {
+    margin: 0;
+}
+a {
+    text-decoration:none;
+}
+button {
+    cursor: pointer;
+}
+video {
+    font-size:0
+}
+
+a,p,h1,h2,h3 {
+    word-wrap: keep-all;
+}
+
+
+
+main {
+    display: flex;
+}
+
+
+/* menu */
+.menu {
+    width: 13rem;
+    background: #023f92;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.menu .menu_top {
+    text-align: center;
+    padding: 5rem 0 0;
+}
+.menu .menu_top .logo {}
+.menu .menu_top .logo img {}
+.menu .menu_top p {
+    margin-top: 30px;
+    color: #f4f9ff;
+    font-size: .8rem;
+}
+.menu .menu_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu .menu_nav a {
+    width: 100%;
+    font-weight: 1000;
+    font-size: 20px;
+    color: #f4f9ff;
+    line-height: 4rem;
+}
+.menu .menu_nav a:hover {
+    color: #7c91bc;
+}
+.menu .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 5rem 0;
+}
+.menu .icon li {
+    margin: 0 10px;
+}
+.menu .icon li a:hover svg {
+    fill: #f4f9ff;
+}
+.menu .icon li a svg {
+    width: 27px;
+    fill: #7c91bc;
+}
+
+
+
+/* page nav */
+.pagenav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    margin: 40px 0 30px;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+}
+.pagenav a {
+    line-height: 63px;
+    color: #000;
+    background-repeat: no-repeat;
+}
+.pagenav a:hover {
+    color: #023f92;
+    font-weight: 800;
+}
+.pagenav a.b_prev {
+    padding-left: 20px;
+    background-position: left center;
+    background-image: url(../img/arrow_left.png);
+}
+.pagenav a.b_list {
+    padding-left: 20px;
+    background-position: left center;
+    background-image: url(../img/list.png);
+}
+.pagenav a.b_next{
+    padding-right: 20px;
+    background-position: right center;
+    background-image: url(../img/arrow_right.png);
+}
+
+
+/* footer */
+footer {
+    background-color: #7c91bc;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #f4f9ff;
+    font-size: 15px;
+}

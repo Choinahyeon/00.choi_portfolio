@@ -1,0 +1,177 @@
+/* 메뉴 탭 컬러변경 */
+.menu .menu_nav a:nth-child(2) {
+    background-color: #f4f9ff;
+    color: #023f92;
+}
+
+
+
+
+.project {
+    width: 100%;
+    overflow: hidden;
+}
+.project article {
+    color: #f4f9ff;
+    bottom: 20%;
+    left: -20px;
+    position: absolute;
+    -webkit-transition: 1s;
+    transition: 1s;
+
+    text-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.project article h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+.project article p {
+    margin: 0;
+}
+.project article p:nth-of-type(1) {
+    font-style: italic;
+    color: #7c91bc;
+    margin: 20px 0 5px;
+}
+
+/* 1 */
+.project .list1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.project .list1 .con {
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+/* 1 - 포트폴리오 */
+.project .list1 .con1.active {
+    height: 90vh;
+    width: 40%;
+}
+.project .list1 .con1::before {
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    display: block;
+    height: 90vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.project .list1 .con1 {
+    background-image: url(../img/img1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 1-2 */
+.project .list1 div {
+    width: 60%;
+}
+/* 1-2 - 넥스트이노베이션 */
+.project .list1 .con2.active {
+    height: 45vh;
+    width: 100%;
+}
+.project .list1 .con2::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 45vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.project .list1 .con2 {
+    background-image: url(../img/next/next01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 1-2 - 다온펜션 */
+.project .list1 .con3.active {
+    height: 45vh;
+    width: 100%;
+}
+.project .list1 .con3::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 45vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.project .list1 .con3 {
+    background-image: url(../img/daon/daon01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* 2 */
+.project .list2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.project .list2 .con {
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+/* 2 - 모까매 */
+.project .list2 .con4.active {
+    height: 45vh;
+    width: 60%;
+}
+.project .list2 .con4::before {
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    display: block;
+    height: 45vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.project .list2 .con4 {
+    background-image: url(../img/img2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 2 - 준비중 */
+
+.project .list2 .con5.active {
+    height: 45vh;
+    width: 40%;
+}
+.project .list2 .con5::before {
+    background-color: rgba(0,0,0,.5);
+    content: "";
+    display: block;
+    height: 45vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.project .list2 .con5 {
+    background-image: url(../img/mokkame/mo01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,131 @@
+/* 메뉴 탭 컬러변경 */
+.menu .menu_nav a:nth-of-type(3) {
+    background-color: #f4f9ff;
+    color: #023f92;
+}
+
+
+body {
+    background: linear-gradient(to right, #f4f9ff , #7c91bc);
+    color: #f4f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #f4f9ff;
+}
+
+.perspective {
+    width: 100%;
+    perspective: 1000px;
+}
+
+#top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    width: 413px;
+    height: 270px;
+    margin: auto;
+    /* box-shadow: 0 30px 30px -30px #8c8b8b; */
+    transform-style: preserve-3d;
+    transition: transform .05s linear;
+}
+.card .thumb {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.card .thumb:after {
+    background: inherit;
+    content: '';
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 40px;
+    width: 100%;
+    height: 108%;
+    z-index: -1;
+    filter: blur(55px);
+}
+
+/* card inner */
+.card .thumb .inner {
+    position: relative;
+    top: 72%;
+    transform: translateY(-50%);
+    left: 30px;
+}
+/* phone */
+.card .thumb .inner .phone {
+    display: flex;
+    align-items: center;
+}
+.card .thumb .inner .phone svg {
+    display: block;
+    fill: #f4f9ff;
+    width: 20px;
+}
+.card .thumb .inner .phone p {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+/* mail */
+.card .thumb .inner .mail {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.card .thumb .inner .mail svg {
+    display: block;
+    fill: #f4f9ff;
+    width: 20px;
+}
+.card .thumb .inner .mail a {
+    margin-left: 20px;
+}
+/* github */
+.card .thumb .inner .git {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.card .thumb .inner .git svg {
+    fill: #f4f9ff;
+    width: 20px;
+}
+.card .thumb .inner .git a {
+    margin-left: 20px;
+}
+
+.card h2 {
+    position: absolute;
+    top: 30px;
+    left: -60px;
+    font-size: 40px;
+    font-weight: 100;
+    transform: translateZ(80px);
+}
+
+.card span {
+    position: absolute;
+    bottom: 30px;
+    right: -130px;
+    font-size: 37px;
+    font-weight: 600;
+    transform: translateZ(35px);
+}
+
+

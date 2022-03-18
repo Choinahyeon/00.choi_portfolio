@@ -1,0 +1,89 @@
+svg#freepik_stories-full-inbox:not(.animated) .animable {
+    opacity: 0;
+}
+svg#freepik_stories-full-inbox.animated #freepik--background-simple--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--speech-bubble--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--Number--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--Shadows--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--Character--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--Envelopes--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;
+    animation-delay: 0s;
+}
+svg#freepik_stories-full-inbox.animated #freepik--Table--inject-22 {
+    animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft
+    ;animation-delay: 0s;
+}
+
+
+@keyframes zoomIn {                
+    0% {                    
+        opacity: 0;                    
+        transform: scale(0.5);                
+    }                
+    100% {                    
+        opacity: 1;                    
+        transform: scale(1);                
+    }            
+}                    
+@keyframes slideLeft {                
+    0% {                    
+        opacity: 0;                    
+        transform: translateX(-30px);                
+    }                
+    100% {                    
+        opacity: 1;                    
+        transform: translateX(0);                
+    }            
+}                    
+
+@keyframes slideRight {                
+    0% {                    
+        opacity: 0;                    
+        transform: translateX(30px);                
+    }                
+    100% {                    
+        opacity: 1;                    
+        transform: translateX(0);                
+    }            
+}                    
+
+@keyframes zoomOut {                
+    0% {                    
+        opacity: 0;                    
+        transform: scale(1.5);                
+    }                
+    100% {                    
+        opacity: 1;                    
+        transform: scale(1);                
+    }            
+}                    
+
+@keyframes slideUp {                
+    0% {                    
+        opacity: 0;                    
+        transform: translateY(30px);                
+    }                
+    100% {                    
+        opacity: 1;                    
+        transform: inherit;                
+    }            
+}        
+.animator-hidden { 
+    display: none; 
+}

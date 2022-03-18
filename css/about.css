@@ -1,0 +1,193 @@
+/* 메뉴 탭 컬러변경 */
+.menu .menu_nav a:nth-of-type(1) {
+    background-color: #f4f9ff;
+    color: #023f92;
+}
+
+
+/* about */
+.about {
+    height: 100vh;
+}
+.about .content2 {
+    height: 100%;
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .content2 .text2 {
+    width: 45%;
+}
+.about .content2 .text2 h1 {
+    font-size: 3.5rem;
+    color: #023f92;
+    margin: 0 0 40px 0;
+}
+.about .content2 .text2 p {
+    margin: 20px 0;
+}
+
+.about .content2 .right {
+    width: 50%;
+}
+.about .content2 .right .skill {
+    width: 100%;
+}
+.about .content2 .right .skill p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* skillbar */
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #dfdfdf;
+    height: 3px;
+    border-radius: 4px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    border-radius: 4px;
+}
+
+/* skills */
+.about .content2 .right .img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.about .content2 .right .img ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.about .content2 .right .img ul li {
+    width: 50px;
+    height: 50px;
+    margin: 20px 9px 10px 0 ;
+}
+.about .content2 .right .img ul .html {
+    background-image: url(../img/s_html.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .css {
+    background-image: url(../img/s_css.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .js {
+    background-image: url(../img/s_javascript.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .jq {
+    background-image: url(../img/s_jquery.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .json {
+    background-image: url(../img/s_json.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .pts {
+    background-image: url(../img/s_photoshop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .ill {
+    background-image: url(../img/s_illustrator.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .room {
+    background-image: url(../img/s_lightroom.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .zp {
+    background-image: url(../img/s_zeplin.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .fgm {
+    background-image: url(../img/s_figma.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .vc {
+    background-image: url(../img/s_visual.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .at {
+    background-image: url(../img/s_atom.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .content2 .right .img ul .git {
+    background-image: url(../img/s_github.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* carrer */
+.about .content2 .right .career {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+.about .content2 .right .career .day {
+    margin-bottom: 15px;
+}
+.about .content2 .right .career .purunong {
+    width: 40%;
+    background-color: #023f92;
+    padding: 25px;
+    color: #f4f9ff;
+}
+.about .content2 .right .career .purunong h3 {
+    font-size: 1.7rem;
+}
+.about .content2 .right .career .purunong p {
+    color: #7c91bc;
+    line-height: 1.5;
+}
+
+.about .content2 .right .career .green {
+    width: 40%;
+    background-color: #023f92;
+    padding: 25px;
+    color: #f4f9ff;
+}
+.about .content2 .right .career .green h3 {
+    font-size: 1.7rem;
+}
+.about .content2 .right .career .green p {
+    color: #7c91bc;
+    line-height: 1.5;
+}
+
