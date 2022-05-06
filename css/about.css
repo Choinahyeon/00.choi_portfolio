@@ -1,6 +1,6 @@
 /* 메뉴 탭 컬러변경 */
 .menu .menu_nav a:nth-of-type(1) {
-    background-color: #f4f9ff;
+    background-color: #fff;
     color: #023f92;
 }
 
@@ -167,7 +167,7 @@
     width: 40%;
     background-color: #023f92;
     padding: 25px;
-    color: #f4f9ff;
+    color: #fff;
 }
 .about .content2 .right .career .purunong h3 {
     font-size: 1.7rem;
@@ -181,7 +181,7 @@
     width: 40%;
     background-color: #023f92;
     padding: 25px;
-    color: #f4f9ff;
+    color: #fff;
 }
 .about .content2 .right .career .green h3 {
     font-size: 1.7rem;

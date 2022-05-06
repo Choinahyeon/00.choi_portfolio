@@ -1,6 +1,6 @@
 /* 메뉴 탭 컬러변경 */
 .menu .menu_nav a:nth-of-type(2) {
-    background-color: #f4f9ff;
+    background-color: #fff;
     color: #023f92;
 }
 
@@ -71,7 +71,7 @@
     margin-top: 10px;
 }
 .daon .top .detail .right .bt {
-    margin-top: 3rem;
+    margin-top: 30px;
     text-align: center;
     display: flex;
 }
@@ -79,7 +79,7 @@
     display: block;
     border: 1px solid #233b65;
     border-radius: 30px;
-    background-color: #f4f9ff;
+    background-color: #fff;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);
     -webkit-box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);  
     font-size: 15px;
@@ -96,7 +96,7 @@
     box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);
     -webkit-box-shadow: 5px 5px 20px rgb(0 0 0 / 10%); 
     font-size: 15px;
-    color: #f4f9ff;
+    color: #fff;
     padding: 12px 0;
     width: 200px;
 }
@@ -185,18 +185,23 @@
 
 
 /* row4 */
-.daon .row4 {}
+.daon .row4 {
+    margin: 0 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .daon .row4 video {
-    width: 100%;
+    width: 60%;
 }
 .daon .row4 article {
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem 8rem;
+    width: 35%;
 }
-.daon .row4 article h2 {}
+.daon .row4 article h2 {
+    margin-bottom: 20px;
+}
 .daon .row4 article p {
-    width: 70%;
     line-height: 1.5rem;
     margin: 0;
 }

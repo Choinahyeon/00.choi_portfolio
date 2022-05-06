@@ -1,12 +1,16 @@
 /* 메뉴 탭 컬러변경 */
 .menu .menu_nav a:nth-of-type(2) {
-    background-color: #f4f9ff;
+    background-color: #fff;
     color: #023f92;
 }
+
+
+
 
 .mo {
     width: 100%;
 }
+
 /* top */
 .mo .top .scale-up-hor-center {
     margin: 0 auto;
@@ -51,7 +55,6 @@
     margin: 5px 0;
     line-height: 1.3;
 }
-
 .mo .top .detail .left .content {
     margin: 0 0 5rem 0;
     padding: 0;
@@ -61,7 +64,6 @@
     margin: 5px 0;
     line-height: 1.3;
 }
-
 .mo .top .detail .right {
     width: 60%;
 }
@@ -74,17 +76,11 @@
 }
 
 
-/* row */
-.mo .row {}
-/* .mo .row .bigimg {
-    background-attachment: fixed;
-    background-image: url(../img/mokkame/test.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-} */
-.mo .row .subimg {
+
+
+/* row1 */
+.mo .row1 {}
+.mo .row1 .subimg {
     -webkit-box-align: start;
     -ms-flex-align: start;
     -webkit-box-pack: justify;
@@ -95,47 +91,48 @@
     display: flex;
     justify-content: space-between;
     margin: 0 5rem;
-    /* padding-top: 5rem; */
 }
-.mo .subimg .left {
+.mo .row1 .subimg .left {
     width: 31%;
 }
-.mo .subimg .left img {
+.mo .row1 .subimg .left img {
     width: 100%;
 }
-.mo .subimg .right {
+.mo .row1 .subimg .right {
     width: 64%;
 }
-.mo .subimg .right img {
+.mo .row1 .subimg .right img {
     width: 100%;
 }
-
-.mo .row article {
+.mo .row1 article {
     display: flex;
     justify-content: space-between;
     margin: 5rem 8rem;
 }
-.mo .row article h2 {}
-.mo .row article p {
+.mo .row1 article h2 {}
+.mo .row1 article p {
     width: 70%;
     line-height: 1.5rem;
     margin: 0;
 }
 
 
+
+
 /* row2 */
-.mo .row2 {}
+.mo .row2 {
+    padding-bottom: 5rem;
+}
 .mo .row2 .imgflex {
     display: flex;
 }
 .mo .row2 .imgflex .img01 {
-    background-image: url(../img/mokkame/mo05.jpg);
+    background-image: url(../img/mokkame/mo04.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
-
 .mo .row2 .imgflex .img02 {
     width: 50%;
     display: flex;
@@ -146,11 +143,11 @@
     width: 100%;
     height: 50%;
 }
-
 .mo .row2 .img03 img {
     width: 100%;
     margin: 5rem 0;
 }
+
 
 
 
@@ -172,6 +169,13 @@
 }
 
 
+
+
+/* row4 */
+.mo .row4 {}
+.mo .row4 img {
+    width: 100%;
+}
 
 
 

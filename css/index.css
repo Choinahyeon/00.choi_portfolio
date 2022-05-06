@@ -49,10 +49,10 @@ a.bttn {
     z-index: 999;
 }
 a.bttn:hover {
-    color: #f4f9ff;
+    color: #fff;
 }
 a.bttn:focus {
-    color:#f4f9ff;
+    color:#fff;
 }
 .bttn {
     font-size: 16px;
@@ -284,19 +284,19 @@ a.bttn:focus {
 .pplist .list1 {
     width: 33.3333%;
     height: 300px;
-    background-image: url(../img/next/next01.jpg);
+    background-image: url(../img/next.jpg);
     background-size: cover;
 }
 .pplist .list2 {
     width: 33.3333%;
     height: 300px;
-    background-image: url(../img/daon/daon01.jpg);
+    background-image: url(../img/daon.jpg);
     background-size: cover;
 }
 .pplist .list3 {
     width: 33.3333%;
     height: 300px;
-    background-image: url(../img/mokkame/mo02.jpg);
+    background-image: url(../img/mo.jpg);
     background-size: cover;
 }
 .pplist .list a {}

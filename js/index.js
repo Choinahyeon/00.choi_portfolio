@@ -14,7 +14,7 @@ $(function() {
 
     function timeCounter() {
 
-        id0 = setInterval(count0Fn, 50);
+        id0 = setInterval(count0Fn, 100);
 
         function count0Fn() {
         count0++;
@@ -37,7 +37,7 @@ $(function() {
         }
         }
 
-        id2 = setInterval(count2Fn, 90);
+        id2 = setInterval(count2Fn, 200);
 
         function count2Fn() {
         count2++;

@@ -1,6 +1,6 @@
 /* 메뉴 탭 컬러변경 */
 .menu .menu_nav a:nth-of-type(2) {
-    background-color: #f4f9ff;
+    background-color: #fff;
     color: #023f92;
 }
 
@@ -204,21 +204,29 @@
 
 /* row4 */
 .portfolio .row4 {
-    margin: 5rem 0;
-}
-.portfolio .row4 video {
-    width: 100%;
-}
-.portfolio .row4 article {
+    margin: 5rem 5rem 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
-    margin: 5rem 8rem 0;
 }
-.portfolio .row4 .text h2 {}
+.portfolio .row4 video {
+    width: 60%;
+}
+.portfolio .row4 article {
+    width: 35%;
+}
+.portfolio .row4 .text h2 {
+    margin-bottom: 20px;
+}
 .portfolio .row4 .text p {
-    width: 70%;
     line-height: 1.5rem;
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 
