@@ -29,6 +29,7 @@
 .daon .top .title small {
     margin-left: 1.3rem;
     font-size: 18px;
+    color: #a0a0a0;
 }
 
 .daon .top .detail {
@@ -65,10 +66,10 @@
 }
 .daon .top .detail .right p {
     margin: 0;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 .daon .top .detail .right p:nth-of-type(2) {
-    margin-top: 10px;
+    margin-top: 13px;
 }
 .daon .top .detail .right .bt {
     margin-top: 30px;
@@ -133,9 +134,13 @@
 }
 .row2 .left img {
     width: 100%;
+    border: 1px solid #dbdbdb;
 }
-.row2 .left img:nth-of-type(1) {
-    margin-bottom: 20px;
+.row2 .left p {
+    text-align: center;
+}
+.row2 .left p:nth-of-type(1) {
+    margin-bottom: 40px;
 }
 .row2 .sticky {
     width: 35%;
@@ -155,30 +160,48 @@
     margin-top: 25px;
 }
 
+
+
+
 /* row3 */
 .row3 {
     margin: 5rem 5rem 0;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+}
+.daon .row3 .img {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    align-items: center;
+    align-items: flex-start;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5rem;
 }
-.daon .row3 video {
-    width: 60%;
+.daon .row3 .img .left {
+    width: 49%;
+    text-align: center;
+}
+.daon .row3 .img .left img {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+}
+.daon .row3 .img .right {
+    width: 49%;
+    text-align: center;
+}
+.daon .row3 .img .right img {
+    width: 100%;
+    border: 1px solid #dbdbdb;
 }
 .daon .row3 article {
-    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 3rem;
 }
-.daon .row3 article h2 {
-    margin-bottom: 20px;
-}
+.daon .row3 article h2 {}
 .daon .row3 article p {
+    width: 70%;
     line-height: 1.5rem;
     margin: 0;
 }

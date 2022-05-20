@@ -37,6 +37,7 @@
 .renewal .top .title small {
     margin-left: 1.3rem;
     font-size: 18px;
+    color: #a0a0a0;
 }
 
 .renewal .top .detail {
@@ -54,7 +55,7 @@
 .renewal .top .detail .left .type li {
     font-size: 16px;
     font-weight: bold;
-    color: #006e4a;
+    color: #664a38;
     margin: 5px 0;
 }
 
@@ -72,10 +73,10 @@
 }
 .renewal .top .detail .right p {
     margin: 0;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 .renewal .top .detail .right p:nth-of-type(2) {
-    margin-top: 10px;
+    margin-top: 13px;
 }
 .renewal .top .detail .right .bt {
     margin-top: 30px;
@@ -156,7 +157,7 @@
 .renewal .row2 {}
 .renewal .row2 .bigimg {
     background-attachment: fixed;
-    background-image: url(../img/renewal/re02.jpg);
+    background-image: url(../img/renewal/re04.jpg);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,6 +169,12 @@
     justify-content: space-between;
     margin: 5rem 8rem;
 }
+.renewal .row2 article .left {}
+.renewal .row2 article .left p {
+    width: 100%;
+    font-size: .9rem;
+    color: #2b2b2b;
+}
 .renewal .row2 article h2 {}
 .renewal .row2 article p {
     width: 70%;
@@ -176,28 +183,10 @@
 }
 
 
+
+
 /* row3 */
-.renewal .row3 {}
-.renewal .row3 img {
-    width: 100%;
-}
-.renewal .row3 article {
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem 8rem;
-}
-.renewal .row3 article h2 {}
-.renewal .row3 article p {
-    width: 70%;
-    line-height: 1.5rem;
-    margin: 0;
-}
-
-
-
-
-/* row4 */
-.renewal .row4 {
+.renewal .row3 {
     margin: 0 5rem;
     padding-bottom: 5rem;
     -webkit-box-align: center;
@@ -210,17 +199,24 @@
     display: flex;
     justify-content: space-between;
 }
-.renewal .row4 .l_text {
+.renewal .row3 article {
     width: 35%;
 }
-.renewal .row4 .l_text h2 {
+.renewal .row3 article .tit {}
+.renewal .row3 article .tit p {
+    margin: 0;
+    font-size: .9rem;
+    color: #2b2b2b;
+}
+.renewal .row3 article .tit h2 {
     margin-bottom: 20px;
 }
-.renewal .row4 .l_text p {
+
+.renewal .row3 article p {
     line-height: 1.5rem;
     margin-bottom: 15px;
 }
-.renewal .row4 img {
+.renewal .row3 img {
     width: 60%;
 }
 

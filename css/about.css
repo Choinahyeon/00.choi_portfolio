@@ -26,6 +26,8 @@
 }
 .about .content2 .text2 p {
     margin: 20px 0;
+    word-break: break-all;
+    word-wrap: normal;
 }
 
 .about .content2 .right {
