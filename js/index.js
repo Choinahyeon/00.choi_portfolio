@@ -13,7 +13,7 @@ $(function() {
     timeCounter();
 
     function timeCounter() {
-
+        //29개월
         id0 = setInterval(count0Fn, 100);
         function count0Fn() {
             count0++;
@@ -23,7 +23,7 @@ $(function() {
                 $(".number").eq(0).text(count0);
             }
         }
-
+        // 148개
         id1 = setInterval(count1Fn, 20);
         function count1Fn() {
             count1++;
@@ -33,8 +33,8 @@ $(function() {
                 $(".number").eq(1).text(count1);
             }
         }
-
-        id2 = setInterval(count2Fn, 200);
+        // 5개
+        id2 = setInterval(count2Fn, 600);
         function count2Fn() {
             count2++;
             if (count2 > 5) {

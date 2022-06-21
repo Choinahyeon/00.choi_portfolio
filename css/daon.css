@@ -134,7 +134,7 @@
 }
 .row2 .left img {
     width: 100%;
-    border: 1px solid #dbdbdb;
+    /* border: 1px solid #dbdbdb; */
 }
 .row2 .left p {
     text-align: center;
